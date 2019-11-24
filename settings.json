@@ -1,0 +1,55 @@
+{
+
+    "editor.fontSize": 17,
+    "editor.fontFamily": "Victor Mono",
+    "editor.fontLigatures": true,
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+          {
+            "scope": [
+              "entity.name.type.class", 
+              "keyword",
+              "constant", 
+              "storage.modifier",
+              "storage.type.class.js",
+              "entity.name.function.js",
+              "invalid",
+              "keyword.operator",
+              "constant.numeric.css",
+              "keyword.other.unit.px.css",
+              "constant.numeric.decimal.js",
+              "constant.numeric.json",
+              "meta.embedded.line.php"
+            ],
+            "settings": {
+              "fontStyle": "italic"
+            
+            }
+          },
+          {
+            "scope":[
+              "entity.other.attribute-name"
+            ],
+            "settings": {
+              "fontStyle": "italic",
+              "foreground": "#FBC02D"
+
+            }
+
+          },
+          {
+            "scope":[
+              "punctuation.definition.comment",
+              "comment"
+            ],
+            "settings": {
+              "foreground": "#689F38"
+     
+
+            }
+
+          }
+
+        ]
+      }
+}
